@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./base.css">
+        <script src="./test-osu-api/test-osu-api.js"></script>
+        <title>ハッカソン制作</title>
+    </head>
+    <body>
+        <h1> <a href="./index.html">osu! API</a> </h1>
+        <form class="user" name="user">
+            <div class="msr_text_02">
+                <label>ユーザーネーム</label>
+                <input type="text" id="nametxt">
+            </div>
+            <p class="msr_btn09">
+                <a href="#" onclick="get_user()">ユーザー情報を表示</a>
+            </p>
+        </form>
+        <div id="userinfos"></div>
+        <table class="msr_table05" id="userinfo">
+        </table>
+        <div id="bestmaps"></div>
+        <table class="msr_table05" id="userbest">
+        </table>
+    </body>
+</html>

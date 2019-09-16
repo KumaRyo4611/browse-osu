@@ -1,0 +1,97 @@
+@charset "utf-8";
+body {
+    font-size: 95%;
+    line-height: 2;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+}
+
+.msr_table05 {
+    border:1px solid #999999;
+    border-collapse: collapse;
+    color:#333333;
+    line-height: 1.6;
+    text-align: left;
+    width: 95%;
+    margin: 10px;
+}
+
+.msr_table05 th {
+    border:1px solid #999999;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 12px 16px;
+    text-align: center;
+    vertical-align : middle;
+}
+
+.msr_table05 thead th{
+    position:relative;
+}
+
+.msr_table05 thead th:after{
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    border-bottom: 1px solid #999999;
+}
+
+.msr_table05 td {
+    border:1px solid #999999;
+    font-size: 14px;
+    padding: 12px 16px;
+    vertical-align: top;
+}
+
+/*--------------------------------------
+テキスト
+---------------------------------------*/
+
+.msr_text_02 {
+    padding-bottom: 20px;
+    width: 460px;
+  }
+  .msr_text_02  label {
+    display: block;
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  .msr_text_02 input[type=text] {
+    border: 1px solid #1B73BA;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #333;
+    font-size: 13px;
+    padding: 10px;
+    height: 40px;
+    width: 420px;
+  }
+
+  .msr_btn09 a {
+    background-color: #FFFFFF;
+    border:1px solid #999999;
+    border-radius: 2px;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    width: 230px;
+  }
+  /* マウスオーバー */
+  .msr_btn09 a:hover {
+    background-color: #999999;
+    color: #FFFFFF;
+  }
